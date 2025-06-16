@@ -1,0 +1,7 @@
+{
+  "name": "React + Tailwind Dev Container",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000],
+  "workspaceFolder": "/workspace"
+}
